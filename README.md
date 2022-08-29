@@ -7,7 +7,7 @@
   <br />
   <br />
   
-  <img src="./readme-images/project-logo.png" />
+  <img src="./assets/images/logo.png" />
 
   <h2 align="center">Quran Player</h2>
 
