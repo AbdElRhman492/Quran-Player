@@ -1,0 +1,26 @@
+doctype
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE-edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title Quran Player
+    link(rel="shortcut icon", href="assets/images/logo.png", type="image/x-icon")
+    link(rel='stylesheet' href='assets/src/css/all.min.css')
+    link(rel='stylesheet' href='assets/src/css/main.css')
+  body
+    #preloader
+    .container
+      .player
+        .ayah أضغط علي السورة للإستماع إليها
+        audio(src='' class='quranPlayer' controls autoplay)
+        .buttons
+          .icon.next
+            i.fas.fa-forward
+          .icon.play
+            i.fas.fa-play
+          .icon.prev
+            i.fas.fa-backward
+      .suras
+    script(src='//cdn.jsdelivr.net/npm/sweetalert2@11')
+    script(src='assets/src/js/script.js')
