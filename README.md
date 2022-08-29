@@ -9,7 +9,7 @@
   
   <img src="./readme-images/project-logo.png" />
 
-  <h2 align="center">Quran Player/h2>
+  <h2 align="center">Quran Player</h2>
 
   You Can Play All Surahs In Quran Player, It Is Fully Responsive. Developed Using [ PugJs - SASS - JS ]
 
